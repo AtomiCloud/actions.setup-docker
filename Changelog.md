@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.1.0...v1.2.0) (2024-02-24)
+
+
+### ✨ Features ✨
+
+* set default checkout to native ([8747807](https://github.com/AtomiCloud/actions.setup-docker/commit/8747807b79212b5203a885bbc434370f7a35dad0))
+
 ## [1.1.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.0.1...v1.1.0) (2024-02-24)
 
 
