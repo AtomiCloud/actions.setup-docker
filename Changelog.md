@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.0.1...v1.1.0) (2024-02-24)
+
+
+### ✨ Features ✨
+
+* allow checkout to mix and match with non-namespace ([1973c11](https://github.com/AtomiCloud/actions.setup-docker/commit/1973c1159752bad660375bd427b935dbfc8ff3eb))
+
 ## [1.0.1](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.0.0...v1.0.1) (2024-02-24)
 
 
