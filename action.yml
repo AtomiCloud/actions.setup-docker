@@ -5,7 +5,7 @@ inputs:
     default: "true"
     description: "Using Namespace Lab's runners"
   checkout:
-    default: "true"
+    default: "native"
     description: |
       Whether to checkout the repository and what checkout action to use. Avaiable
       options are `false`, `native`, `namespace`
