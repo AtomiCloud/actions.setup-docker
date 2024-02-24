@@ -1,0 +1,36 @@
+name: Setup AtomiCloud CI Docker
+description: "Setup AtomiCloud CI Docker (Compatible with Namespace)"
+inputs:
+  namespacelabs:
+    default: "true"
+    description: "Using Namespace Lab's runners"
+  checkout:
+    default: "true"
+    description: "Whether to checkout the repository"
+branding:
+  color: blue
+  icon: settings
+runs:
+  using: "composite"
+  steps:
+    # NAMESPACE LAB VERSION
+    - name: Checkout Repository
+      uses: namespacelabs/nscloud-checkout-action@v2
+      if: inputs.namespacelabs == 'true' && inputs.checkout == 'true'
+    - name: Install and configure Namespace CLI
+      uses: namespacelabs/nscloud-setup@v0
+      if: inputs.namespacelabs == 'true'
+    - name: Configure Namespace powered Buildx
+      uses: namespacelabs/nscloud-setup-buildx-action@v0
+      if: inputs.namespacelabs == 'true'
+
+    # NATIVE VERSION
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      if: inputs.namespacelabs == 'false' && inputs.checkout == 'true'
+    - name: Setup Buildx
+      uses: docker/setup-buildx-action@v3
+      if: inputs.namespacelabs == 'false'
+    - name: Setup QEMU emulator
+      uses: docker/setup-qemu-action@v3
+      if: inputs.namespacelabs == 'false'
