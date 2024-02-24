@@ -24,7 +24,7 @@ jobs:
 | parameter | description | required | default |
 | --- | --- | --- | --- |
 | namespacelabs | Using Namespace Lab's runners | `false` | true |
-| checkout | Whether to checkout the repository | `false` | true |
+| checkout | Whether to checkout the repository and what checkout action to use. Avaiable options are `false`, `native`, `namespace`  | `false` | true |
 <!-- action-docs-inputs -->
 
 <!-- action-docs-outputs -->
