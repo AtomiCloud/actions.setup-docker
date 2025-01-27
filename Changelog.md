@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.2.0...v1.3.0) (2025-01-27)
+
+
+### 🐛 Bug Fixes 🐛
+
+* missing prettierrc ([f38d291](https://github.com/AtomiCloud/actions.setup-docker/commit/f38d291cf178b6dff8ac840fd004075d666a3a77))
+
+
+### ✨ Features ✨
+
+* upgrade cicd ([367b2f3](https://github.com/AtomiCloud/actions.setup-docker/commit/367b2f3e8a85cb6bf35b59261db5be689cf11c60))
+
 ## [1.2.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.1.0...v1.2.0) (2024-02-24)
 
 
