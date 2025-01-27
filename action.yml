@@ -1,11 +1,11 @@
 name: Setup AtomiCloud CI Docker
-description: "Setup AtomiCloud CI Docker (Compatible with Namespace)"
+description: 'Setup AtomiCloud CI Docker (Compatible with Namespace)'
 inputs:
   namespacelabs:
-    default: "true"
+    default: 'true'
     description: "Using Namespace Lab's runners"
   checkout:
-    default: "native"
+    default: 'native'
     description: |
       Whether to checkout the repository and what checkout action to use. Avaiable
       options are `false`, `native`, `namespace`
@@ -13,7 +13,7 @@ branding:
   color: blue
   icon: settings
 runs:
-  using: "composite"
+  using: 'composite'
   steps:
     # Checkout
     - name: Checkout Repository
