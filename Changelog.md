@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.3.0...v1.4.0) (2025-01-28)
+
+
+### ✨ Features ✨
+
+* upgrade checkout ([39cb8f6](https://github.com/AtomiCloud/actions.setup-docker/commit/39cb8f64826884ef64e8dcec443207ea5e7a701d))
+
 ## [1.3.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.2.0...v1.3.0) (2025-01-27)
 
 
