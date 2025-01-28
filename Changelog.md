@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.4.0...v1.5.0) (2025-01-28)
+
+
+### ✨ Features ✨
+
+* include slug-action ([d456fcb](https://github.com/AtomiCloud/actions.setup-docker/commit/d456fcb735ab10e2edcaa91334175e08795689ea))
+
 ## [1.4.0](https://github.com/AtomiCloud/actions.setup-docker/compare/v1.3.0...v1.4.0) (2025-01-28)
 
 
