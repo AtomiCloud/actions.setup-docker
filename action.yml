@@ -9,6 +9,10 @@ inputs:
     description: |
       Whether to checkout the repository and what checkout action to use. Avaiable
       options are `false`, `native`, `namespace`
+  short-length:
+    default: 7
+    description: length for short SHA values generated. See rlespinasse/github-slug-action.
+
 branding:
   color: blue
   icon: settings
@@ -38,3 +42,8 @@ runs:
     - name: Setup QEMU emulator
       uses: docker/setup-qemu-action@v3
       if: inputs.namespacelabs == 'false'
+
+    - name: Inject enhanced GitHub environment variables
+      uses: rlespinasse/github-slug-action@v5.x
+      with:
+        short-length: ${{ inputs.short-length }}
