@@ -17,7 +17,7 @@ runs:
   steps:
     # Checkout
     - name: Checkout Repository
-      uses: namespacelabs/nscloud-checkout-action@v2
+      uses: namespacelabs/nscloud-checkout-action@v5
       if: inputs.checkout == 'namespace'
     - name: Checkout Repository
       uses: actions/checkout@v4
